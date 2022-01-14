@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-image: url(img/register/bg_contact.jpg);
+    background-attachment: fixed;
+    width: 100%;
+}
+#body-content {
+    padding: 130px 30px 150px 180px;
+}
+#body-content .page-title {
+    color: #e53328;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: white;
+    width: 360px;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 15px;
+}
+#main-contact{
+    display: flex;
+    margin: 30px 30px auto auto !important;
+}
+.content-left{
+background-color: #ffe9da;
+width: 30%;
+height: 260px;
+margin-right: 20px;
+padding-left: 16px;
+padding-top: 10px;
+padding-right: 10px;
+}
+#margintest{
+    color: #3c3b39;
+    font-size: 22px;
+}
+#pfontsizeleft{
+    color: #984d17;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+#content-right{
+   background-color: #ffe9da; /* đặt màu nền: #ffe9da */
+   width: 60%;
+   height: auto; /* đặt kích thước thành phần rộng: 60%, cao: auto */
+}
+
+
+.form-contact {
+    width: 60%;    
+    padding: 20px;     
+}
+input[type=text] {
+    
+    width: 415px;
+    height: 30px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px 4px 4px 4px;   
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding-left: 10px;   
+  
+
+}
+.icon-selector-branch {
+    /* định dạng chữ với màu chữ: #EB6C1D, cỡ chữ: 36px */  color: #eb6c1d;
+    font-size: 36px;
+    /* định vị trí tuyệt đổi thành phần, cách trên: 6px, phải: e */
+    position: absolute;
+    top:6px ; right: 0px;
+ }
+.selection-branch {
+    /* định vị trí tương đoi cho thành phần */   position: relative;
+    /* đặt chiều cao thành phần: 40px */  height: 40px;
+    /* canh lề ngoài thành phần cách dưới: 15px */ margin-bottom: 15px;
+  }
+.dropdown-branch {
+    /* định vị trí tuyệt đối thành phần, cách trên: 10px */     position: relative; 
+    top: 10px;
+    /* đặt kích thước thành phần với rộng: 100%, cao: 30px */   width: 100%;
+    height: 30px;
+    /* xóa đường viền bên ngoài thành phần */ border: none;
+  }
+.ques-condition{
+    /* định dạng chữ với màu chữ: #883A04, gạch dưới chữ */  color: #883a04;
+text-decoration: underline;
+
+}
+.inf-submit{
+    /* canh lề ngoài thành phần cách trên: 20px */ margin-top: 20px;
+ }
+.btn-submit {
+    /* đặt màu nền: f6741e*/  background-color: #f6741e;
+    /* xóa đường viền thành phần bao ngoài */   border: none;
+    /* bo viền thành phần theo 4 góc: 10px */  border-radius: 10px 10px 10px 10px;
+    /* đặt kích thước thành phần với rộng: 100px, cao: 35px */  width: 100px;
+    height: 35px;
+    /* định dạng chữ với màu chữ: trắng, cỡ chữ: 20px, kiểu in đậm*/  color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
